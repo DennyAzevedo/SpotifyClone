@@ -1,0 +1,33 @@
+{
+  "name": "spotifyclone",
+  "version": "1.0.0",
+  "description": "Projeto utilizado como base de ensino, e treinamento, dos cursos de **Informática**, principalmente de nível técnico - **IFSP**.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "tailwindcss -i ./input.css -o ./src/css/styles.css --watch",
+    "build": "tailwindcss -i ./input.css -o ./src/css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DennyAzevedo/SpotifyClone.git"
+  },
+  "keywords": [
+    "tailwindcss",
+    "spotify",
+    "clone",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Denny Paulista Azevedo Filho",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DennyAzevedo/SpotifyClone/issues"
+  },
+  "homepage": "https://github.com/DennyAzevedo/SpotifyClone#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.2.2",
+    "tailwindcss": "^4.2.2"
+  }
+}
