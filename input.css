@@ -22,18 +22,22 @@
   /* =========================
     BACKGROUND IMAGES
   ========================= */
-  --background-image-spotify-theme: url('/img/bursts.svg');
-  --background-image-spotify-theme-mobile: url('/img/bursts-mobile.svg');
+  --background-image-spotify-theme: url('/src/img/bursts.svg');
+  --background-image-spotify-theme-mobile: url('/src/img/bursts-mobile.svg');
+}
 
-  /* =========================
-    BACKGROUND SIZE
-  ========================= */
-  --background-size-175: 175%;
-  --background-size-195: 195%;
+@utility bg-size-175 {
+  background-size: 175%;
+}
 
-  /* =========================
-    BACKGROUND POSITION
-  ========================= */
-  --background-position-banner: 46% 4%;
-  --background-position-banner-mobile: top 25% center;
+@utility bg-size-195 {
+  background-size: 195%;
+}
+
+@utility bg-position-banner {
+  background-position: 46% 4%;
+}
+
+@utility bg-position-banner-mobile {
+  background-position: top 25% center;
 }
