@@ -20,13 +20,13 @@ principalmente de nível técnico - **IFSP**.
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/dennyazevedofh/CloneSpotify.git
+git clone https://github.com/dennyazevedofh/SpotifyClone.git
 ```
 
 2. Navegue até o diretório do projeto:
 
 ```bash
-cd CloneSpotify
+cd SpotifyClone
 ```
 
 3. Instale as dependências:
